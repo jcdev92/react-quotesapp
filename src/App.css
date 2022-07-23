@@ -62,6 +62,15 @@ body {
     text-shadow: 1px 1px 3px;
 }
 
+@media (max-width: 321x) {
+    .quotebox__button {
+        margin-top: 1em;
+        width: 20vw;
+        height: 8vh;   
+    }
+}
+
+
 @media (max-width: 600px) {
     .quotebox__button {
         width: 15vw;
