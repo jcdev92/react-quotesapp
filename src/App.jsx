@@ -24,15 +24,13 @@ function App() {
   }
 
   let bgColor = {
-    backgroundColor: colorRandom
+    backgroundColor: color
   }
 
   return (
-    <body style={bgColor}>
-    <div className="App">
+    <div className="App" style={bgColor}>
       <QuoteBox quoteRandom={quoteRandom} colorRandom={colorRandom} handleClick={handleClick}/>
     </div>
-    </body>
   )
 }
 
